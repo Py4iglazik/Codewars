@@ -50,3 +50,15 @@ function unusualFive() {
   return array.length;
 }
 unusualFive();
+
+
+//The fifth task.
+function periodIsLate(last, today, cycleLength) {
+  let numberOfDates = Math.floor((today - last)/(1000*60*60*24));
+  if (numberOfDates > cycleLength) {
+    return true;
+  } else {
+    return false;
+  }
+}
+periodIsLate((2016, 6, 13), (2016, 7, 16), 35);
