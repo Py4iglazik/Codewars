@@ -43,3 +43,10 @@ function updateLight(current) {
 let current = "green";
 updateLight(current);
 
+
+//The forth task. (Вернуть "5" без использования знаков "0123456789*+-/")
+function unusualFive() {
+  let array = ["b", "c", "d", "e", "f"];
+  return array.length;
+}
+unusualFive();
