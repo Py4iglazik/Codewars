@@ -62,3 +62,11 @@ function periodIsLate(last, today, cycleLength) {
   }
 }
 periodIsLate((2016, 6, 13), (2016, 7, 16), 35);
+
+
+//The sixth task.
+function multiply(a, b){
+  let result = a * b;
+  return result;
+}
+multiply(2, 3);
