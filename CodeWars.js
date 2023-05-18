@@ -104,3 +104,28 @@ function makeNegative(num) {
   return num;
 }
 console.log(makeNegative(20));
+
+
+//The tenth task.
+function getCount(str) {
+  let result = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] == "a") {
+      result += 1;
+    }
+    if (str[i] == "e") {
+      result += 1;
+    }
+    if (str[i] == "i") {
+      result += 1;
+    }
+    if (str[i] == "o") {
+      result += 1;
+    }
+    if (str[i] == "u") {
+      result += 1;
+    }
+  }
+  return result;
+}
+getCount("abracadabra");
