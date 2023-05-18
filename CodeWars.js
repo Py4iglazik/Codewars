@@ -94,3 +94,13 @@ function positiveSum(arr) {
   return result;
 }
 positiveSum([1, 2, 3, 4, 5]);
+
+
+//The ninth task.
+function makeNegative(num) {
+  if (num > 0) {
+    num = -num;
+  }
+  return num;
+}
+console.log(makeNegative(20));
