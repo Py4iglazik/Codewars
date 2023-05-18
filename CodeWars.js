@@ -70,3 +70,14 @@ function multiply(a, b){
   return result;
 }
 multiply(2, 3);
+
+
+//The seventh task.
+function evenOrOdd(number) {
+  if (number % 2 == 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+evenOrOdd(7);
