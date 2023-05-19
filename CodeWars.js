@@ -145,3 +145,14 @@ function disemvowel(str) {
   return result;
 }
 disemvowel("This website is for losers LOL!");
+
+
+//The thirteenth task.
+function boolToWord(bool){
+  if (bool == true) {
+    return "Yes";
+  } else {
+    return "No";
+  }
+}
+console.log(boolToWord(true));
