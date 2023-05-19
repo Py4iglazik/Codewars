@@ -129,3 +129,19 @@ function getCount(str) {
   return result;
 }
 getCount("abracadabra");
+
+
+//The eleventh task.
+function solution(str){
+  let reverse = str.split('').reverse().join('');
+  return reverse;
+}
+solution("world");
+
+
+//The twelfth task.
+function disemvowel(str) {
+  let result = str.replace(/[aeiuo]/gi, '');
+  return result;
+}
+disemvowel("This website is for losers LOL!");
