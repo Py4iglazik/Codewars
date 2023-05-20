@@ -174,3 +174,10 @@ function highAndLow(numbers) {
 }
 
 console.log(highAndLow("5 6 7 8"));
+
+
+//The fifteenth task.
+function numberToString(num) {
+  let result = String(num);
+  return result;
+}
