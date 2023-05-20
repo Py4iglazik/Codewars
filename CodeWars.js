@@ -156,3 +156,21 @@ function boolToWord(bool){
   }
 }
 console.log(boolToWord(true));
+
+
+//The fourteenth task.
+function highAndLow(numbers) {
+  
+  let array = numbers.split(" ");
+  let biggestNumber = Number(array[0]);
+  let smallestNumber = Number(array[0]);
+
+  for (let i = 0; i < array.length; i++) {
+    if (biggestNumber < Number(array[i])) {biggestNumber = Number(array[i])};
+    if (smallestNumber > Number(array[i])) {smallestNumber = Number(array[i])};
+  }
+
+  return biggestNumber + " " + smallestNumber;
+}
+
+console.log(highAndLow("5 6 7 8"));
